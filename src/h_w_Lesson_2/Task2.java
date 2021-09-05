@@ -1,4 +1,4 @@
-package homework2;
+package h_w_Lesson_2;
 
 public class Task2 {
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class Task2 {
             summa += s;
         }
 
-        System.out.println(summa/ numbers.length);
+        System.out.println(summa / numbers.length);
 
     }
 }
