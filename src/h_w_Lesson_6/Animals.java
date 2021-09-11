@@ -7,10 +7,9 @@ public class Animals {
     private int age;
     private int weight;
     private String color;
-    private String speak;
 
-    public Animals(String speak) {
-        this.speak = speak;
+    public String speak() {
+        return "Hello";
     }
     public int getId() {
         return id;
@@ -35,12 +34,6 @@ public class Animals {
     }
     public void setColor(String color) {
         this.color = color;
-    }
-    public String getSpeak() {
-        return speak;
-    }
-    public void setSpeak(String speak) {
-        this.speak = speak;
     }
 
 }

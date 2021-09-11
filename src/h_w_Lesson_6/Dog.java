@@ -5,9 +5,7 @@ public class Dog extends Pet{
     String woof= "Woof";
     private String isTrained;
 
-    public Dog(String speak) {
-        super(speak);
-    }
+    public Dog() {}
 
     public String getIsTrained() {
         return isTrained;

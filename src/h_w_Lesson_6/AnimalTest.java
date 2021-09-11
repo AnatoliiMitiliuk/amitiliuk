@@ -3,32 +3,32 @@ package h_w_Lesson_6;
 public class AnimalTest {
     public static void main(String[] args) {
 
-        Cat cat = new Cat("Hello");
+        Cat cat = new Cat();
         cat.setName("Kitty");
 
-        GuideDog guideDogDogdog = new GuideDog("Hello");
-        guideDogDogdog.setName("Baxter");
-        guideDogDogdog.setIsTrained("I can take you home");
+        GuideDog guideDog = new GuideDog();
+        guideDog.setName("Baxter");
+        guideDog.setIsTrained("I can take you home");
 
-        Fish fish = new Fish("....");
+        Fish fish = new Fish();
         fish.setName("....");
 
-        Wolf wolf = new Wolf("Hello");
+        Wolf wolf = new Wolf();
         wolf.setInPredator("and I am angry");
 
-        Lion lion = new Lion("Hello");
+        Lion lion = new Lion();
         lion.setInPredator("and I am angry");
 
-        Giraffe giraffe = new Giraffe("Hello");
+        Giraffe giraffe = new Giraffe();
 
-        Crocodile crocodile = new Crocodile("Hello");
+        Crocodile crocodile = new Crocodile();
         crocodile.setInPredator("and I am angry");
 
-        Hamster hamster = new Hamster("Hello");
+        Hamster hamster = new Hamster();
         hamster.setName("Tigger");
 
         System.out.println(fish);
-        System.out.println(guideDogDogdog);
+        System.out.println(guideDog);
         System.out.println(cat);
         System.out.println(wolf);
         System.out.println(lion);

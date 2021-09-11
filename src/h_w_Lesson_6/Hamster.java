@@ -2,16 +2,17 @@ package h_w_Lesson_6;
 
 public class Hamster extends Pet{
 
-    public Hamster(String speak) {
-        super(speak);
+    public Hamster() {}
+
+    @Override
+    public String speak(){
+        return (super.speak().concat(", my name is"));
     }
 
     @Override
     public String toString() {
-        return "'Hamster' " +
-                " " +getSpeak()+
-                ", my name is " +getName()+
-                "" +
-                "";
+        return "'Hamster' " +speak()+
+                " " +getName()+
+                ".";
     }
 }

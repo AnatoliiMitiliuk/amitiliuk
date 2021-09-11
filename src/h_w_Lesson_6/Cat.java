@@ -5,16 +5,18 @@ public class Cat extends Pet {
 
      String meow = "Meow";
 
-    public Cat(String speak) {
-        super(speak);
+    public Cat() {}
+
+    @Override
+    public String speak(){
+        return (super.speak().concat(", my name is"));
     }
 
     @Override
     public String toString() {
-        return "'Cat' " +
-                " " + getSpeak()+
-                ", my name is " +getName()+
+        return "'Cat' " +speak()+
+                " " +getName()+
                 ", " + meow+
-                "";
+                ".";
     }
 }

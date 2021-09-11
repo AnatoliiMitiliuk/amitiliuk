@@ -5,9 +5,7 @@ public class Wild extends Animals {
     String wild = "I am a wild animal";
     String inPredator;
 
-    public Wild(String speak) {
-        super(speak);
-    }
+    public Wild() {}
 
     public String getInPredator() {
         return inPredator;

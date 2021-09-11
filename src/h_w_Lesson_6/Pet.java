@@ -6,9 +6,7 @@ public class Pet extends Animals {
 
     private String isVaccinated;
 
-    public Pet(String speak) {
-        super(speak);
-    }
+    public Pet() {}
 
     public String getName() {
         return name;

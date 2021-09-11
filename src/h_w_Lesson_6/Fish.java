@@ -2,15 +2,17 @@ package h_w_Lesson_6;
 
 public class Fish extends Pet{
 
-    public Fish(String speak) {
-        super(speak);
+    public Fish() {}
+
+    @Override
+    public String speak(){
+        return ("....".concat(", .... .... ...."));
     }
 
     @Override
     public String toString() {
-        return "'Fish' " +
-                " " +getSpeak()+
-                ", .... .... .... " +getName()+
-                "";
+        return "'Fish' " +speak()+
+                ", " +getName()+
+                ".";
     }
 }
